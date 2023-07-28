@@ -26,7 +26,6 @@ public class 네트워크 {
     public static void main(String[] args) {
         int n = 3; //컴퓨터 수
         int[][] computers = {{1, 1, 0}, {1, 1, 0}, {0, 0, 1}}; //컴퓨터
-
         System.out.println("네트워크 수는 ? "+ solution(n, computers));
     }
 }
