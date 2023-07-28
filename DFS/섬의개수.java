@@ -14,8 +14,8 @@ public class 섬의개수{
     public static void dfs(int x, int y){
         visited[x][y] = true;
         for(int i=0; i<DIRECTION; i++){
-            int newX = x + dirX[0];
-            int newY = y + dirY[0];
+            int newX = x + dirX[i];
+            int newY = y + dirY[i];
             if(map[newX][newY] && !visited[newX][newY]){
                 dfs(newX, newY);
             }
